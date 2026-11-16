@@ -1,0 +1,14 @@
+{
+  "name": "git-forge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A GitHub-compatible git forge in one Node 22 process, stdlib only: git smart HTTP (upload-pack v2 + receive-pack v0), REST v3, GraphQL and MCP",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types main.ts"
+  }
+}
